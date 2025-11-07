@@ -27,6 +27,7 @@ A lightweight scraping API built with **Express.js** and **Playwright**.
 ```bash
 npm install
 npm run dev
+```
 
 ---
 
