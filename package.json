@@ -1,0 +1,33 @@
+{
+  "name": "spiralyze-task-b",
+  "version": "1.0.0",
+  "description": "Spiralyze Technical Test - Task B",
+  "main": "dist/server.js",
+  "type": "commonjs",
+  "scripts": {
+    "dev": "ts-node-dev --respawn --transpile-only src/server.ts",
+    "build": "tsc",
+    "start": "node dist/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bagindaisfa/spiralyze-task-b.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bagindaisfa/spiralyze-task-b/issues"
+  },
+  "homepage": "https://github.com/bagindaisfa/spiralyze-task-b#readme",
+  "dependencies": {
+    "express": "^5.1.0",
+    "playwright": "^1.56.1"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.5",
+    "@types/node": "^24.10.0",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.9.3"
+  }
+}
